@@ -25,6 +25,8 @@ export const site = {
     "https://www.google.com/maps/search/?api=1&query=Galla+Mandi+Road+Jhansi",
   images: { hero, facility, logo },
   url: "https://siddhivinayaksolar.in",
+  formspreeSubsidy: "https://formspree.io/f/xjgqlqvj",
+  formspreeContact: "https://formspree.io/f/mnjkwkqo",
   seoTitle: "Siddhi Vinayak Solar Solutions — Rooftop Solar Installer in Jhansi",
   seoDescription: "Government empanelled rooftop solar installer in Jhansi for on-grid, off-grid and hybrid solar systems with PM Surya Ghar subsidy support, net-metering, solar pumps, AMC and free site survey.",
   seoKeywords: [

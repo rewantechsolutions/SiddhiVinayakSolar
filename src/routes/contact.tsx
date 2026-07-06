@@ -61,12 +61,12 @@ function ContactPage() {
           </div>
 
           <div className="lg:col-span-3 rounded-2xl bg-card border border-border p-6 md:p-8">
-            <h2 className="font-display text-2xl font-extrabold text-ink">Send an enquiry</h2>
+            <h2 className="font-display text-2xl font-extrabold text-ink">Send a free enquiry</h2>
             <p className="mt-2 text-sm text-muted-foreground">
               Fill this form and our engineer will call you back within 24 hours with a custom quote.
             </p>
             <div className="mt-6">
-              <EnquiryForm storageKey="svs_contact_leads" />
+              <EnquiryForm storageKey="svs_contact_leads" formType="Free Contact Form" submitLabel="Send Contact Details" formspreeUrl={site.formspreeContact} />
             </div>
           </div>
         </div>

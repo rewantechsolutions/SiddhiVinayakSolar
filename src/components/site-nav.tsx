@@ -21,7 +21,7 @@ export function SiteNav() {
       </div>
 
       <nav className="sticky top-0 z-30 border-b border-primary/10 bg-background/92 shadow-[0_8px_30px_-24px_oklch(0.16_0.07_210/0.45)] backdrop-blur-xl">
-        <div className="mx-auto flex h-24 max-w-7xl items-center justify-between px-4 sm:px-6">
+        <div className="mx-auto flex min-h-20 max-w-7xl items-center justify-between gap-3 px-3 py-2 sm:px-6 md:min-h-24">
           <SiteLogo />
 
           <div className="hidden lg:flex items-center gap-6 text-sm font-medium">
@@ -37,7 +37,7 @@ export function SiteNav() {
             ))}
           </div>
 
-          <div className="hidden md:block">
+          <div className="hidden md:block shrink-0">
             <Link
               to="/apply-subsidy"
               className="inline-flex h-11 items-center rounded-full bg-primary px-5 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:bg-ink hover:shadow-md"
@@ -47,7 +47,7 @@ export function SiteNav() {
           </div>
 
           <button
-            className="lg:hidden rounded-md border border-border bg-card p-2 text-ink"
+            className="shrink-0 rounded-md border border-border bg-card p-2 text-ink lg:hidden"
             onClick={() => setOpen(!open)}
             aria-label="Toggle menu"
           >

@@ -413,7 +413,7 @@ function HomePage() {
             </div>
           </div>
           <div className="rounded-2xl bg-background p-6 md:p-8 text-foreground">
-            <EnquiryForm submitLabel="Get Free Quote" storageKey="svs_home_leads" />
+            <EnquiryForm submitLabel="Get Free Quote" storageKey="svs_home_leads" formType="Home Quote Form" />
           </div>
         </div>
       </section>

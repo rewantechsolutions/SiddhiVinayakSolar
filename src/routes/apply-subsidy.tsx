@@ -3,7 +3,7 @@ import { CheckCircle2 } from "lucide-react";
 import { SiteLayout } from "@/components/site-layout";
 import { PageHero } from "@/components/section-header";
 import { EnquiryForm } from "@/components/enquiry-form";
-import { subsidySlabs } from "@/lib/data";
+import { subsidySlabs, site } from "@/lib/data";
 
 export const Route = createFileRoute("/apply-subsidy")({
   head: () => ({
@@ -38,6 +38,8 @@ function ApplySubsidyPage() {
                 storageKey="svs_subsidy_leads"
                 submitLabel="Submit Application"
                 defaultInterest="PM Surya Ghar Subsidy"
+                formType="Apply for Subsidy"
+                formspreeUrl={site.formspreeSubsidy}
                 interests={["1 kW System", "2 kW System", "3 kW System", "5 kW System", "Not sure — advise me"]}
               />
             </div>
