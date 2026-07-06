@@ -149,10 +149,30 @@ export const brands = [
 ];
 
 export const subsidySlabs = [
-  { size: "1 kW", cost: "≈ ₹65,000", subsidy: "₹30,000", units: "~120 units/month" },
-  { size: "2 kW", cost: "≈ ₹1,30,000", subsidy: "₹60,000", units: "~240 units/month" },
-  { size: "3 kW", cost: "≈ ₹1,90,000", subsidy: "₹78,000", units: "~360 units/month" },
-  { size: "5 kW & above", cost: "≈ ₹3,10,000+", subsidy: "₹1,08,000 (max)", units: "~600+ units/month" },
+  {
+    size: "1 kW",
+    cost: "≈ ₹75,000",
+    subsidy: "₹45,000",
+    units: "~120 units/month",
+  },
+  {
+    size: "2 kW",
+    cost: "≈ ₹1,50,000",
+    subsidy: "₹90,000",
+    units: "~240 units/month",
+  },
+  {
+    size: "3 kW",
+    cost: "≈ ₹2,10,000",
+    subsidy: "₹1,08,000",
+    units: "~360 units/month",
+  },
+  {
+    size: "5 kW+",
+    cost: "≈ ₹3,50,000+",
+    subsidy: "₹1,08,000 (Maximum)",
+    units: "~600+ units/month",
+  },
 ];
 
 export const subsidyProcess = [
