@@ -68,8 +68,7 @@ export function SiteFooter() {
 
       <div className="mx-auto max-w-7xl px-6 mt-12 pt-6 border-t border-background/10 flex flex-col md:flex-row justify-between gap-3 text-[10px] font-mono uppercase tracking-widest text-background/40">
         <span>© {new Date().getFullYear()} {site.name} — All rights reserved</span>
-        <span>Designed and Developed by <a href="https://rewantechsolutions.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">Rewantechsolutions BH</a></span>
-        <span>Powered by the Bundelkhand Sun ☀</span>
+        <span>Designed and Developed by <a href="https://rewantechsolutions.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 transition-colors">Rewantechsolutions</a></span>
       </div>
     </footer>
   );
